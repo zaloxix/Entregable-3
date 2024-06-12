@@ -1,0 +1,140 @@
+body .navbar {
+  margin: 0;
+  padding: 0;
+  position: sticky;
+  z-index: 1;
+  background-image: linear-gradient(to right, rgb(175, 193, 220), rgb(192, 224, 224), rgb(175, 193, 220));
+}
+body .navbar .container-fluid {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+body .navbar .container-fluid img {
+  width: 100px;
+  height: auto;
+}
+body .navbar .container-fluid .collapse .nav-link {
+  transition: 1s;
+}
+body .navbar .container-fluid .collapse .nav-link:hover {
+  color: rgb(196, 205, 214);
+}
+body .navbar .container-fluid .collapse .nav-link:hover {
+  margin-left: 10px;
+}
+body .navbar .container-fluid .collapse .nav-link:hover {
+  margin-right: 10px;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to right, #c7eff6, #ffffff, #c2e3f0);
+}
+
+h1 {
+  font-family: "Montserrat", sans-serif;
+}
+
+h2 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 80px;
+}
+main .empresa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+main .empresa h1 {
+  font-size: 400%;
+  text-align: center;
+}
+main .empresa h3 {
+  width: 80%;
+  text-align: center;
+}
+main .vision {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .vision .vision-1 {
+  text-align: center;
+  padding: 5%;
+}
+main .vision img {
+  max-width: 80%;
+  height: auto;
+  margin: 1%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+main .inicios {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .inicios .inicios-1 {
+  text-align: center;
+  padding: 5%;
+}
+main .inicios img {
+  max-width: 100%;
+  height: auto;
+  margin: 1%;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+main .equipo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .equipo img {
+  margin: 3rem;
+  max-width: 120%;
+  height: auto;
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+main .equipo .equipo-1 {
+  text-align: center;
+  display: flex;
+  flex-flow: wrap;
+  padding: 5%;
+}
+main .equipo .equipo-1 h1 {
+  text-align: center;
+  width: 100%;
+}
+main .valores {
+  display: flex;
+  justify-content: center;
+  flex-flow: wrap;
+}
+main .valores .transparencia {
+  width: 33%;
+  padding: 2%;
+}
+main .valores .lealtad {
+  width: 33%;
+  padding: 2%;
+}
+main .valores .aprendizaje {
+  width: 33%;
+  padding: 2%;
+}
+
+/*# sourceMappingURL=style.css.map */

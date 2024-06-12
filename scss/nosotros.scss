@@ -1,0 +1,73 @@
+main{display: flex;
+    
+flex-direction: column;  
+
+justify-content: center;
+align-items: center;
+.empresa{display: flex;
+flex-direction: column;  
+
+justify-content: center;
+align-items: center;
+    h1{font-size: 400%;
+    text-align: center;}
+    h3{width: 80%;
+    text-align: center;}}
+margin:80px;
+
+.vision{display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    .vision-1{text-align: center;
+    padding: 5%;}
+    img {max-width: 80%;
+        height: auto;
+        margin:1%;
+        @include sombra;
+
+    }
+}
+.inicios{display: flex;
+        justify-content: center;
+        align-items: center;
+        .inicios-1{text-align: center;
+        padding: 5%;}
+        img{max-width: 100%;
+            height: auto;
+            margin:1%;
+            @include sombra;}
+}
+
+
+.equipo{display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {margin: 3rem;
+        max-width: 120%;
+        height: auto;
+        @include sombra;}
+
+    .equipo-1{text-align: center;
+    display:flex;
+    flex-flow:wrap;
+    padding: 5%;
+    h1 {text-align: center;
+        width: 100%;}
+    }}
+
+.valores{
+display: flex;
+justify-content: center;
+flex-flow: wrap;
+
+    .transparencia{width: 33%;
+        padding: 2%;}
+    .lealtad{width: 33%;
+        padding: 2%;}
+    .aprendizaje{width: 33%;
+        padding: 2%;}
+    }
+}
+
